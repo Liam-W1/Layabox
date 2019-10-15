@@ -1,0 +1,419 @@
+@charset "utf-8";
+//引入公共样式表
+@import "common";
+body {
+    .engine {
+        font-size: 0px;
+        background: #fbfaf7;
+        //假高度
+        .container {
+            padding-bottom: 118px;
+            background: #fbfaf7;
+            background-image: url(../img/index/enginebgr.png);
+            background-repeat: no-repeat;
+            background-position: 100% calc(100% - 40px);
+            >.row {
+                >h2 {
+                    margin-top: 106px;
+                    margin-bottom: 33px;
+                    font-size: 48px;
+                    color: #0078d7;
+                }
+                >p {
+                    margin-bottom: 33px;
+                    font-size: 30px;
+                    color: #666666;
+                }
+                >.col-md-8 {
+                    >.row {
+                        >.col-md-6 {
+                            >.col-md-3 {
+                                font-size: 0px;
+                                line-height: 64px;
+                                text-align: center;
+                                padding: 0px;
+                                border-radius: 5px;
+                                width: 64px;
+                                height: 64px;
+                                background: #0078d7;
+                            }
+                            >.col-md-9 {
+                                padding: 0 0 0 15px;
+                                h1 {
+                                    margin-top: 0px;
+                                    font-size: 20px;
+                                    color: #333333;
+                                }
+                                p {
+                                    font-size: 14px;
+                                    color: #666666;
+                                    width: 100%;
+                                    margin-bottom: 46px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+//底部栏
+.bottom-bar {
+    padding-top: 35px;
+    font-size: 0px;
+    color: #8c8d94;
+    background: #3b3b3b;
+    >.container {
+        >.b1 {
+            >.col-md-7 {
+                a {
+                    padding: 5px;
+                    color: #8c8d94;
+                    font-size: 14px;
+                }
+                p {
+                    font-size: 11px;
+                }
+            }
+            >.col-md-5 {
+                text-align: right;
+                padding-bottom: 40px;
+                >a {
+                    margin-left: 20px;
+                    padding-bottom: 13px;
+                }
+                >a>img:nth-child(2) {
+                    display: none;
+                    position: absolute;
+                }
+                >a:first-child:hover #qr {
+                    right: 77px;
+                    bottom: 85px;
+                    display: block;
+                }
+                >a:nth-child(2):hover #qr {
+                    right: 20px;
+                    bottom: 85px;
+                    display: block;
+                }
+                >a:nth-child(3):hover #qr {
+                    right: -40px;
+                    bottom: 85px;
+                    display: block;
+                }
+            }
+        }
+    }
+}
+
+//1.LayaFlash
+.LayaFlash {
+    padding-top: 60px;
+    padding-bottom: 62px;
+    font-size: 0px;
+    background: #8bc01f;
+    >.container {
+        padding-top: 7px;
+        background-image: url(../img/Family/LayaFlash.png);
+        background-repeat: no-repeat;
+        background-position: 100% 100%;
+        >.row {
+            >.col-md-12 {
+                display: flex;
+                h1 {
+                    margin: 0;
+                    line-height: 55px;
+                    font-size: 48px;
+                    text-align: center;
+                    color: #8bc01f;
+                    background: #ffffff;
+                    width: 55px;
+                    height: 55px;
+                }
+                span {
+                    color: #ffffff;
+                    line-height: 55px;
+                    font-size: 48px;
+                    text-align: center;
+                }
+                h2 {
+                    margin-top: 23px;
+                    margin-bottom: 60px;
+                    color: #ffffff;
+                    font-size: 24px;
+                }
+            }
+            >.col-md-6 {
+                p {
+                    line-height: 31px;
+                    font-size: 14px;
+                    color: #ffffff;
+                }
+                >div {
+                    margin-top: 29px;
+                    background: #e8f2d2;
+                    text-align: center;
+                    width: 100px;
+                    height: 34px;
+                    border-radius: 5px;
+                    font-size: 14px;
+                    line-height: 34px;
+                    color: #8bc01f;
+                }
+            }
+        }
+    }
+}
+
+.LayaPlayer {
+    background: #3393df;
+    padding-top: 60px;
+    >.container {
+        padding-top: 14px;
+        padding-left: 9px;
+        background-image: url(../img/Family/LayaPlayer1.png);
+        background-repeat: no-repeat;
+        background-position: 15px 80px;
+        >.row {
+            background-image: url(../img/Family/LayaPlayer2.png);
+            background-repeat: no-repeat;
+            background-position: 668px 200px;
+            padding-bottom: 115px;
+            >.col-md-12 {
+                padding-bottom: 27px;
+                display: flex;
+                h1 {
+                    margin: 0;
+                    font-size: 40px;
+                    width: 42px;
+                    height: 42px;
+                    line-height: 42px;
+                    text-align: center;
+                    background: #ffffff;
+                    color: #3393df;
+                }
+                span {
+                    color: #ffffff;
+                    font-size: 48px;
+                    line-height: 48px;
+                }
+            }
+            >.col-md-8 {
+                color: #ffffff;
+                h2 {
+                    font-size: 24px;
+                }
+                p {
+                    line-height: 29px;
+                    font-size: 14px;
+                    width: 310px;
+                }
+            }
+        }
+    }
+}
+
+//Laya 内容栏3和4
+.Layabody1 {
+    padding-top: 80px;
+                background: #ffffff;
+    >.container {
+        >.lbr1 {
+                
+            >.lb3 {
+                background-image:url(../img/Family/Ladybody3.png);
+                background-repeat: no-repeat;
+                background-position: 50% 390px;
+                padding-left: 7px;
+                padding-top: 11px;
+                padding-bottom: 253px;
+                >div {
+                    display: flex;
+                    >h1 {
+                        margin: 0;
+                        width: 40px;
+                        height: 40px;
+                        line-height: 40px;
+                        font-size: 36px;
+                        background: #3393df;
+                        text-align: center;
+                        color: #ffffff;
+                    }
+                    >span {
+                        padding-left: 10px;
+                        color: #3393df;
+                        font-size: 42px;
+                        line-height: 42px;
+                    }
+                }
+                >h1 {
+                    margin-top: 25px;
+                    font-size: 18px;
+                    color: #5d5d5d;
+                }
+                >h2 {
+                    margin-bottom: 20px;
+                    font-size: 18px;
+                    color: #3393df;
+                }
+                >p {
+                    margin-bottom: 18px;
+                    text-indent: 32px;
+                    color: #5d5d5d;
+                    font-size: 14px;
+                }
+            }
+            >.lb4 {
+                background-image:url(../img/Family/Ladybody4.png);
+               background-repeat: no-repeat;
+                background-position: 50% 390px;
+                padding-left: 7px;
+                padding-top: 11px;
+                padding-bottom: 253px;
+                >div {
+                    display: flex;
+                    >h1 {
+                        margin: 0;
+                        width: 40px;
+                        height: 40px;
+                        line-height: 40px;
+                        font-size: 36px;
+                        background: #3393df;
+                        text-align: center;
+                        color: #ffffff;
+                    }
+                    >span {
+                        padding-left: 10px;
+                        color: #3393df;
+                        font-size: 42px;
+                        line-height: 42px;
+                    }
+                }
+                >h1 {
+                    margin-top: 25px;
+                    font-size: 18px;
+                    color: #5d5d5d;
+                }
+                >h2 {
+                    margin-bottom: 20px;
+                    font-size: 18px;
+                    color: #3393df;
+                }
+                >p {
+                    margin-bottom: 18px;
+                    text-indent: 32px;
+                    color: #5d5d5d;
+                    font-size: 14px;
+                }
+                >p:nth-child(4){
+                    margin-bottom: 40px;
+                }
+                
+            }
+        }
+    }
+}
+//Laya 内容栏5和6
+.Layabody2{
+    background: #f7f7f7;
+    padding-top: 80px;
+    >.container{
+        >.lbr2{
+                
+    
+            >.lb3 {
+                background-image:url(../img/Family/Ladybody3.png);
+               background-repeat: no-repeat;
+                background-position: 50% 300px;
+                padding-left: 7px;
+                padding-top: 11px;
+                padding-bottom: 253px;
+                >div {
+                    display: flex;
+                    >h1 {
+                        margin: 0;
+                        width: 40px;
+                        height: 40px;
+                        line-height: 40px;
+                        font-size: 36px;
+                        background: #3393df;
+                        text-align: center;
+                        color: #ffffff;
+                    }
+                    >span {
+                        padding-left: 10px;
+                        color: #3393df;
+                        font-size: 42px;
+                        line-height: 42px;
+                    }
+                }
+                >h1 {
+                    margin-top: 25px;
+                    font-size: 18px;
+                    color: #5d5d5d;
+                }
+                >h2 {
+                    margin-bottom: 20px;
+                    font-size: 18px;
+                    color: #3393df;
+                }
+                >p {
+                    margin-bottom: 18px;
+                    text-indent: 32px;
+                    color: #5d5d5d;
+                    font-size: 14px;
+                }
+            }
+            >.lb4 {
+                background-image:url(../img/Family/Ladybody4.png);
+               background-repeat: no-repeat;
+                background-position: 50% 300px;
+                padding-left: 7px;
+                padding-top: 11px;
+                padding-bottom: 253px;
+                >div {
+                    display: flex;
+                    >h1 {
+                        margin: 0;
+                        width: 40px;
+                        height: 40px;
+                        line-height: 40px;
+                        font-size: 36px;
+                        background: #3393df;
+                        text-align: center;
+                        color: #ffffff;
+                    }
+                    >span {
+                        padding-left: 10px;
+                        color: #3393df;
+                        font-size: 42px;
+                        line-height: 42px;
+                    }
+                }
+                >h1 {
+                    margin-top: 25px;
+                    font-size: 18px;
+                    color: #5d5d5d;
+                }
+                >h2 {
+                    margin-bottom: 20px;
+                    font-size: 18px;
+                    color: #3393df;
+                }
+                >p {
+                    margin-bottom: 18px;
+                    text-indent: 32px;
+                    color: #5d5d5d;
+                    font-size: 14px;
+                }
+                >p:nth-child(4){
+                    margin-bottom: 40px;
+                }
+                
+            }
+        
+        }
+    }
+}

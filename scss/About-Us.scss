@@ -1,0 +1,252 @@
+@charset "utf-8";
+//引入公共样式表
+@import "common";
+body {
+    .engine {
+        font-size: 0px;
+        background: #fbfaf7;
+        //假高度
+        .container {
+            padding-bottom: 118px;
+            background: #fbfaf7;
+            background-image: url(../img/index/enginebgr.png);
+            background-repeat: no-repeat;
+            background-position: 100% calc(100% - 40px);
+            >.row {
+                >h2 {
+                    margin-top: 106px;
+                    margin-bottom: 33px;
+                    font-size: 48px;
+                    color: #0078d7;
+                }
+                >p {
+                    margin-bottom: 33px;
+                    font-size: 30px;
+                    color: #666666;
+                }
+                >.col-md-8 {
+                    >.row {
+                        >.col-md-6 {
+                            >.col-md-3 {
+                                font-size: 0px;
+                                line-height: 64px;
+                                text-align: center;
+                                padding: 0px;
+                                border-radius: 5px;
+                                width: 64px;
+                                height: 64px;
+                                background: #0078d7;
+                            }
+                            >.col-md-9 {
+                                padding: 0 0 0 15px;
+                                h1 {
+                                    margin-top: 0px;
+                                    font-size: 20px;
+                                    color: #333333;
+                                }
+                                p {
+                                    font-size: 14px;
+                                    color: #666666;
+                                    width: 100%;
+                                    margin-bottom: 46px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+//底部栏
+.bottom-bar {
+    padding-top: 35px;
+    font-size: 0px;
+    color: #8c8d94;
+    background: #3b3b3b;
+    >.container {
+        >.b1 {
+            >.col-md-7 {
+                a {
+                    padding: 5px;
+                    color: #8c8d94;
+                    font-size: 14px;
+                }
+                p {
+                    font-size: 11px;
+                }
+            }
+            >.col-md-5 {
+                text-align: right;
+                padding-bottom: 40px;
+                >a {
+                    margin-left: 20px;
+                    padding-bottom: 13px;
+                }
+                >a>img:nth-child(2) {
+                    display: none;
+                    position: absolute;
+                }
+                >a:first-child:hover #qr {
+                    right: 77px;
+                    bottom: 85px;
+                    display: block;
+                }
+                >a:nth-child(2):hover #qr {
+                    right: 20px;
+                    bottom: 85px;
+                    display: block;
+                }
+                >a:nth-child(3):hover #qr {
+                    right: -40px;
+                    bottom: 85px;
+                    display: block;
+                }
+            }
+        }
+    }
+}
+
+//顶部图 tmap
+.tmap {
+    img {
+        width: 100%;
+    }
+}
+
+.intro {
+    font-size: 0px;
+    >.container {
+        margin-top: 34px;
+        >.i1 {
+            >.col-md-7 {
+                padding-bottom: 25px;
+                >h1 {
+                    margin-bottom: 15px;
+                    font-size: 35px;
+                }
+                >h2 {
+                    font-size: 21px;
+                    line-height: 30px;
+                }
+                >p {
+                    font-size: 14px;
+                    text-indent: 25px;
+                    line-height: 30px;
+                }
+            }
+            >.col-md-5 {
+                padding-top: 162px;
+            }
+        }
+    }
+}
+
+//Join Us招聘
+.Join-Us {
+    color: #ffffff;
+    padding-top: 95px;
+    background: #8cc11f;
+    font-size: 0px;
+    padding-bottom: 50px;
+    >.container {
+        >.row {
+            >.col-md-7 {
+                h1 {
+                    font-size: 36px;
+                    margin-bottom: 41px;
+                }
+                h2 {
+                    line-height: 30px;
+                    font-size: 16px;
+                    margin-bottom: 24px;
+                }
+                p {
+                    font-size: 16px;
+                }
+            }
+            >.col-md-5 {
+                padding-top: 85px;
+                >h1 {
+                    font-size: 16px;
+                }
+                >div {
+                    background: #ffffff;
+                    width: 220px;
+                    height: 48px;
+                    line-height: 48px;
+                    border-radius: 5px;
+                    text-align: center;
+                    span {
+                        color: #8cc11f;
+                        font-size: 24px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.job {
+    padding-top: 48px;
+    background: #ffffff;
+    >.container {
+        >.row {
+            >.col-md-12 {
+                padding-top: 72px;
+                padding-bottom: 40px;
+                border-bottom: 1px solid #d2d2d2;
+                >h1 {
+                    margin-top: 0px;
+                    color: #8cc11f;
+                    font-size: 26px;
+                    margin-bottom: 40px;
+                }
+                >h2 {
+                    margin-top: 0px;
+                    margin-bottom: 15px;
+                    font-size: 18px;
+                }
+                >p {
+                    font-size: 14px;
+                    line-height: 30px;
+                }
+            }
+            >.j5{
+                border: 0px;
+            }
+        }
+    }
+}
+.contact{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 0px;
+    background: #f4f4f4;
+    >.container{
+        >.row{
+            >.col-md-12{
+                >h1{
+                    margin-bottom: 40px;
+   font-size: 36px;  
+   margin-top: 0px;               
+                }
+                
+            }
+            >.col-md-6{
+                width: 467px;
+                
+margin-right: 30px;                margin-bottom: 20px;
+                background: #ffffff;
+                border-radius: 5px;
+                height: 100px;
+                line-height: 100px;
+            >span{
+                margin-left: 10px;
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}

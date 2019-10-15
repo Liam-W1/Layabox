@@ -1,0 +1,24 @@
+body {
+  padding-top: 50px; }
+  body header .navbar {
+    margin-bottom: 0px; }
+    body header .navbar .navbar-brand {
+      padding: 7px 15px 7px 20px; }
+    body header .navbar .navbar-fixed-top {
+      border-width: 0px; }
+
+.item > img {
+  width: 100%;
+  max-width: 100%; }
+
+@media (min-width: 768px) {
+  .navbar {
+    border-radius: 0px; } }
+@media (min-width: 768px) and (max-width: 992px) {
+  .navbar .nav > li > a {
+    padding: 15px 3px; } }
+@media (min-width: 1200px) {
+  .container {
+    width: 1000px; } }
+
+/*# sourceMappingURL=_common.css.map */

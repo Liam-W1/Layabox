@@ -1,0 +1,336 @@
+body {
+  padding-top: 50px; }
+  body header .navbar {
+    margin-bottom: 0px; }
+    body header .navbar .navbar-brand {
+      padding: 7px 15px 7px 20px; }
+    body header .navbar .navbar-fixed-top {
+      border-width: 0px; }
+
+.item > img {
+  width: 100%;
+  max-width: 100%; }
+
+@media (min-width: 768px) {
+  .navbar {
+    border-radius: 0px; } }
+@media (min-width: 768px) and (max-width: 992px) {
+  .navbar .nav > li > a {
+    padding: 15px 3px; } }
+@media (min-width: 1200px) {
+  .container {
+    width: 1000px; } }
+body .engine {
+  font-size: 0px;
+  background: #fbfaf7; }
+  body .engine .container {
+    padding-bottom: 118px;
+    background: #fbfaf7;
+    background-image: url(../img/index/enginebgr.png);
+    background-repeat: no-repeat;
+    background-position: 100% calc(100% - 40px); }
+    body .engine .container > .row > h2 {
+      margin-top: 106px;
+      margin-bottom: 33px;
+      font-size: 48px;
+      color: #0078d7; }
+    body .engine .container > .row > p {
+      margin-bottom: 33px;
+      font-size: 30px;
+      color: #666666; }
+    body .engine .container > .row > .col-md-8 > .row > .col-md-6 > .col-md-3 {
+      font-size: 0px;
+      line-height: 64px;
+      text-align: center;
+      padding: 0px;
+      border-radius: 5px;
+      width: 64px;
+      height: 64px;
+      background: #0078d7; }
+    body .engine .container > .row > .col-md-8 > .row > .col-md-6 > .col-md-9 {
+      padding: 0 0 0 15px; }
+      body .engine .container > .row > .col-md-8 > .row > .col-md-6 > .col-md-9 h1 {
+        margin-top: 0px;
+        font-size: 20px;
+        color: #333333; }
+      body .engine .container > .row > .col-md-8 > .row > .col-md-6 > .col-md-9 p {
+        font-size: 14px;
+        color: #666666;
+        width: 100%;
+        margin-bottom: 46px; }
+
+.bottom-bar {
+  padding-top: 35px;
+  font-size: 0px;
+  color: #8c8d94;
+  background: #3b3b3b; }
+  .bottom-bar > .container > .b1 > .col-md-7 a {
+    padding: 5px;
+    color: #8c8d94;
+    font-size: 14px; }
+  .bottom-bar > .container > .b1 > .col-md-7 p {
+    font-size: 11px; }
+  .bottom-bar > .container > .b1 > .col-md-5 {
+    text-align: right;
+    padding-bottom: 40px; }
+    .bottom-bar > .container > .b1 > .col-md-5 > a {
+      margin-left: 20px;
+      padding-bottom: 13px; }
+    .bottom-bar > .container > .b1 > .col-md-5 > a > img:nth-child(2) {
+      display: none;
+      position: absolute; }
+    .bottom-bar > .container > .b1 > .col-md-5 > a:first-child:hover #qr {
+      right: 77px;
+      bottom: 85px;
+      display: block; }
+    .bottom-bar > .container > .b1 > .col-md-5 > a:nth-child(2):hover #qr {
+      right: 20px;
+      bottom: 85px;
+      display: block; }
+    .bottom-bar > .container > .b1 > .col-md-5 > a:nth-child(3):hover #qr {
+      right: -40px;
+      bottom: 85px;
+      display: block; }
+
+.LayaFlash {
+  padding-top: 60px;
+  padding-bottom: 62px;
+  font-size: 0px;
+  background: #8bc01f; }
+  .LayaFlash > .container {
+    padding-top: 7px;
+    background-image: url(../img/Family/LayaFlash.png);
+    background-repeat: no-repeat;
+    background-position: 100% 100%; }
+    .LayaFlash > .container > .row > .col-md-12 {
+      display: flex; }
+      .LayaFlash > .container > .row > .col-md-12 h1 {
+        margin: 0;
+        line-height: 55px;
+        font-size: 48px;
+        text-align: center;
+        color: #8bc01f;
+        background: #ffffff;
+        width: 55px;
+        height: 55px; }
+      .LayaFlash > .container > .row > .col-md-12 span {
+        color: #ffffff;
+        line-height: 55px;
+        font-size: 48px;
+        text-align: center; }
+      .LayaFlash > .container > .row > .col-md-12 h2 {
+        margin-top: 23px;
+        margin-bottom: 60px;
+        color: #ffffff;
+        font-size: 24px; }
+    .LayaFlash > .container > .row > .col-md-6 p {
+      line-height: 31px;
+      font-size: 14px;
+      color: #ffffff; }
+    .LayaFlash > .container > .row > .col-md-6 > div {
+      margin-top: 29px;
+      background: #e8f2d2;
+      text-align: center;
+      width: 100px;
+      height: 34px;
+      border-radius: 5px;
+      font-size: 14px;
+      line-height: 34px;
+      color: #8bc01f; }
+
+.LayaPlayer {
+  background: #3393df;
+  padding-top: 60px; }
+  .LayaPlayer > .container {
+    padding-top: 14px;
+    padding-left: 9px;
+    background-image: url(../img/Family/LayaPlayer1.png);
+    background-repeat: no-repeat;
+    background-position: 15px 80px; }
+    .LayaPlayer > .container > .row {
+      background-image: url(../img/Family/LayaPlayer2.png);
+      background-repeat: no-repeat;
+      background-position: 668px 200px;
+      padding-bottom: 115px; }
+      .LayaPlayer > .container > .row > .col-md-12 {
+        padding-bottom: 27px;
+        display: flex; }
+        .LayaPlayer > .container > .row > .col-md-12 h1 {
+          margin: 0;
+          font-size: 40px;
+          width: 42px;
+          height: 42px;
+          line-height: 42px;
+          text-align: center;
+          background: #ffffff;
+          color: #3393df; }
+        .LayaPlayer > .container > .row > .col-md-12 span {
+          color: #ffffff;
+          font-size: 48px;
+          line-height: 48px; }
+      .LayaPlayer > .container > .row > .col-md-8 {
+        color: #ffffff; }
+        .LayaPlayer > .container > .row > .col-md-8 h2 {
+          font-size: 24px; }
+        .LayaPlayer > .container > .row > .col-md-8 p {
+          line-height: 29px;
+          font-size: 14px;
+          width: 310px; }
+
+.Layabody1 {
+  padding-top: 80px;
+  background: #ffffff; }
+  .Layabody1 > .container > .lbr1 > .lb3 {
+    background-image: url(../img/Family/Ladybody3.png);
+    background-repeat: no-repeat;
+    background-position: 50% 390px;
+    padding-left: 7px;
+    padding-top: 11px;
+    padding-bottom: 253px; }
+    .Layabody1 > .container > .lbr1 > .lb3 > div {
+      display: flex; }
+      .Layabody1 > .container > .lbr1 > .lb3 > div > h1 {
+        margin: 0;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 36px;
+        background: #3393df;
+        text-align: center;
+        color: #ffffff; }
+      .Layabody1 > .container > .lbr1 > .lb3 > div > span {
+        padding-left: 10px;
+        color: #3393df;
+        font-size: 42px;
+        line-height: 42px; }
+    .Layabody1 > .container > .lbr1 > .lb3 > h1 {
+      margin-top: 25px;
+      font-size: 18px;
+      color: #5d5d5d; }
+    .Layabody1 > .container > .lbr1 > .lb3 > h2 {
+      margin-bottom: 20px;
+      font-size: 18px;
+      color: #3393df; }
+    .Layabody1 > .container > .lbr1 > .lb3 > p {
+      margin-bottom: 18px;
+      text-indent: 32px;
+      color: #5d5d5d;
+      font-size: 14px; }
+  .Layabody1 > .container > .lbr1 > .lb4 {
+    background-image: url(../img/Family/Ladybody4.png);
+    background-repeat: no-repeat;
+    background-position: 50% 390px;
+    padding-left: 7px;
+    padding-top: 11px;
+    padding-bottom: 253px; }
+    .Layabody1 > .container > .lbr1 > .lb4 > div {
+      display: flex; }
+      .Layabody1 > .container > .lbr1 > .lb4 > div > h1 {
+        margin: 0;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 36px;
+        background: #3393df;
+        text-align: center;
+        color: #ffffff; }
+      .Layabody1 > .container > .lbr1 > .lb4 > div > span {
+        padding-left: 10px;
+        color: #3393df;
+        font-size: 42px;
+        line-height: 42px; }
+    .Layabody1 > .container > .lbr1 > .lb4 > h1 {
+      margin-top: 25px;
+      font-size: 18px;
+      color: #5d5d5d; }
+    .Layabody1 > .container > .lbr1 > .lb4 > h2 {
+      margin-bottom: 20px;
+      font-size: 18px;
+      color: #3393df; }
+    .Layabody1 > .container > .lbr1 > .lb4 > p {
+      margin-bottom: 18px;
+      text-indent: 32px;
+      color: #5d5d5d;
+      font-size: 14px; }
+    .Layabody1 > .container > .lbr1 > .lb4 > p:nth-child(4) {
+      margin-bottom: 40px; }
+
+.Layabody2 {
+  background: #f7f7f7;
+  padding-top: 80px; }
+  .Layabody2 > .container > .lbr2 > .lb3 {
+    background-image: url(../img/Family/Ladybody3.png);
+    background-repeat: no-repeat;
+    background-position: 50% 300px;
+    padding-left: 7px;
+    padding-top: 11px;
+    padding-bottom: 253px; }
+    .Layabody2 > .container > .lbr2 > .lb3 > div {
+      display: flex; }
+      .Layabody2 > .container > .lbr2 > .lb3 > div > h1 {
+        margin: 0;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 36px;
+        background: #3393df;
+        text-align: center;
+        color: #ffffff; }
+      .Layabody2 > .container > .lbr2 > .lb3 > div > span {
+        padding-left: 10px;
+        color: #3393df;
+        font-size: 42px;
+        line-height: 42px; }
+    .Layabody2 > .container > .lbr2 > .lb3 > h1 {
+      margin-top: 25px;
+      font-size: 18px;
+      color: #5d5d5d; }
+    .Layabody2 > .container > .lbr2 > .lb3 > h2 {
+      margin-bottom: 20px;
+      font-size: 18px;
+      color: #3393df; }
+    .Layabody2 > .container > .lbr2 > .lb3 > p {
+      margin-bottom: 18px;
+      text-indent: 32px;
+      color: #5d5d5d;
+      font-size: 14px; }
+  .Layabody2 > .container > .lbr2 > .lb4 {
+    background-image: url(../img/Family/Ladybody4.png);
+    background-repeat: no-repeat;
+    background-position: 50% 300px;
+    padding-left: 7px;
+    padding-top: 11px;
+    padding-bottom: 253px; }
+    .Layabody2 > .container > .lbr2 > .lb4 > div {
+      display: flex; }
+      .Layabody2 > .container > .lbr2 > .lb4 > div > h1 {
+        margin: 0;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 36px;
+        background: #3393df;
+        text-align: center;
+        color: #ffffff; }
+      .Layabody2 > .container > .lbr2 > .lb4 > div > span {
+        padding-left: 10px;
+        color: #3393df;
+        font-size: 42px;
+        line-height: 42px; }
+    .Layabody2 > .container > .lbr2 > .lb4 > h1 {
+      margin-top: 25px;
+      font-size: 18px;
+      color: #5d5d5d; }
+    .Layabody2 > .container > .lbr2 > .lb4 > h2 {
+      margin-bottom: 20px;
+      font-size: 18px;
+      color: #3393df; }
+    .Layabody2 > .container > .lbr2 > .lb4 > p {
+      margin-bottom: 18px;
+      text-indent: 32px;
+      color: #5d5d5d;
+      font-size: 14px; }
+    .Layabody2 > .container > .lbr2 > .lb4 > p:nth-child(4) {
+      margin-bottom: 40px; }
+
+/*# sourceMappingURL=Family.css.map */

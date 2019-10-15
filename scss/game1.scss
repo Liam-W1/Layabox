@@ -1,0 +1,189 @@
+@charset "utf-8";
+//引入公共样式表
+@import "common";
+body {
+    .engine {
+        font-size: 0px;
+        background: #fbfaf7;
+        //假高度
+        .container {
+            padding-bottom: 118px;
+            background: #fbfaf7;
+            background-image: url(../img/index/enginebgr.png);
+            background-repeat: no-repeat;
+            background-position: 100% calc(100% - 40px);
+            >.row {
+                >h2 {
+                    margin-top: 106px;
+                    margin-bottom: 33px;
+                    font-size: 48px;
+                    color: #0078d7;
+                }
+                >p {
+                    margin-bottom: 33px;
+                    font-size: 30px;
+                    color: #666666;
+                }
+                >.col-md-8 {
+                    >.row {
+                        >.col-md-6 {
+                            >.col-md-3 {
+                                font-size: 0px;
+                                line-height: 64px;
+                                text-align: center;
+                                padding: 0px;
+                                border-radius: 5px;
+                                width: 64px;
+                                height: 64px;
+                                background: #0078d7;
+                            }
+                            >.col-md-9 {
+                                padding: 0 0 0 15px;
+                                h1 {
+                                    margin-top: 0px;
+                                    font-size: 20px;
+                                    color: #333333;
+                                }
+                                p {
+                                    font-size: 14px;
+                                    color: #666666;
+                                    width: 100%;
+                                    margin-bottom: 46px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+//热门游戏
+.hot {
+   
+    
+    >.container {
+        padding-top: 13px;
+        >.row1 {
+             position: relative;
+             >.img{
+        z-index: 3;
+                top: 40px;
+    position: absolute;
+    left: 5px;
+            }
+            >.r0 {
+                z-index: 1;
+                position: relative;
+                span {
+                    color: white;
+                    top: 20px;
+                    position: absolute;
+                    display: inline-block;
+                    width: 15px;
+                    left: 29px;
+                }
+            }
+            >.r1 {
+                text-align: right;
+                h1 {
+                    font-size: 30px;
+                }
+                p {
+                   line-height: 30px;
+                    color: #898989;
+                    font-size: 12px;
+                }
+            }
+            >.r2 {
+                margin-bottom: 30px;
+            >div{
+                padding: 0px;
+                
+            }
+            >div:nth-child(2){
+                    text-align: right;
+                }
+            }
+        }
+        >.row2 {
+            position: relative;
+            margin-bottom: 84px;
+            >.img{
+                position: absolute;
+                right: 0px;
+            }
+            >.r0{
+                
+            h1 {
+                font-size: 30px;
+            }
+            p {
+                line-height: 30px;
+                font-size: 12px;
+                color: #898989;
+            }
+        
+            }
+            >.r1{
+                >div{
+                    margin-bottom: 30px;
+                    padding: 0px;
+                }
+                >div:nth-child(2){
+                    text-align: right;
+                }
+            }
+        }
+    }
+}
+
+//底部栏
+.bottom-bar {
+    padding-top: 35px;
+    font-size: 0px;
+    color: #8c8d94;
+    background: #3b3b3b;
+    >.container {
+        >.b1 {
+            >.col-md-7 {
+                a {
+                    padding: 5px;
+                    color: #8c8d94;
+                    font-size: 14px;
+                }
+                p {
+                    font-size: 11px;
+                }
+            }
+            >.col-md-5 {
+                text-align: right;
+                padding-bottom: 40px;
+                >a {
+                    margin-left: 20px;
+                    padding-bottom: 13px;
+                }
+                >a>img:nth-child(2) {
+                    display: none;
+                    position: absolute;
+                }
+                >a:first-child:hover #qr {
+                    right: 77px;
+                    bottom: 85px;
+                    display: block;
+                }
+                >a:nth-child(2):hover #qr {
+                    right: 20px;
+                    bottom: 85px;
+                    display: block;
+                }
+                >a:nth-child(3):hover #qr {
+                    right: -40px;
+                    bottom: 85px;
+                    display: block;
+                }
+            }
+        }
+    }
+}

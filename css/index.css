@@ -1,0 +1,204 @@
+body {
+  padding-top: 50px; }
+  body header .navbar {
+    margin-bottom: 0px; }
+    body header .navbar .navbar-brand {
+      padding: 7px 15px 7px 20px; }
+    body header .navbar .navbar-fixed-top {
+      border-width: 0px; }
+
+.item > img {
+  width: 100%;
+  max-width: 100%; }
+
+@media (min-width: 768px) {
+  .navbar {
+    border-radius: 0px; } }
+@media (min-width: 768px) and (max-width: 992px) {
+  .navbar .nav > li > a {
+    padding: 15px 3px; } }
+@media (min-width: 1200px) {
+  .container {
+    width: 1000px; } }
+body .engine {
+  font-size: 0px;
+  background: #fbfaf7; }
+  body .engine .container {
+    padding-bottom: 118px;
+    background: #fbfaf7;
+    background-image: url(../img/index/enginebgr.png);
+    background-repeat: no-repeat;
+    background-position: 100% calc(100% - 40px); }
+    body .engine .container > .row > h2 {
+      margin-top: 106px;
+      margin-bottom: 33px;
+      font-size: 48px;
+      color: #0078d7; }
+    body .engine .container > .row > p {
+      margin-bottom: 33px;
+      font-size: 30px;
+      color: #666666; }
+    body .engine .container > .row > .col-md-8 > .row > .col-md-6 > .col-md-3 {
+      font-size: 0px;
+      line-height: 64px;
+      text-align: center;
+      padding: 0px;
+      border-radius: 5px;
+      width: 64px;
+      height: 64px;
+      background: #0078d7; }
+    body .engine .container > .row > .col-md-8 > .row > .col-md-6 > .col-md-9 {
+      padding: 0 0 0 15px; }
+      body .engine .container > .row > .col-md-8 > .row > .col-md-6 > .col-md-9 h1 {
+        margin-top: 0px;
+        font-size: 20px;
+        color: #333333; }
+      body .engine .container > .row > .col-md-8 > .row > .col-md-6 > .col-md-9 p {
+        font-size: 14px;
+        color: #666666;
+        width: 100%;
+        margin-bottom: 46px; }
+
+.advantage {
+  background: #ffffff; }
+  .advantage > .container {
+    padding-bottom: 89px; }
+    .advantage > .container > .a1 .col-md-7 {
+      padding: 0px; }
+      .advantage > .container > .a1 .col-md-7 h1 {
+        font-weight: 600;
+        margin-top: 114px;
+        margin-bottom: 44px;
+        font-size: 48px;
+        color: #8fc31f; }
+    .advantage > .container > .a2 {
+      background-image: url(../img/index/advantagebgr.png);
+      background-repeat: no-repeat;
+      background-position-x: 0;
+      background-position-y: 100%; }
+      .advantage > .container > .a2 > .col-md-7 > div:first-child {
+        float: left;
+        width: 54px;
+        height: 54px;
+        background: #8fc31f;
+        border-radius: 50%;
+        line-height: 54px;
+        padding: 0px;
+        text-align: center; }
+      .advantage > .container > .a2 > .col-md-7 > div:nth-child(2) {
+        font-size: 14px;
+        line-height: 54px;
+        float: left; }
+        .advantage > .container > .a2 > .col-md-7 > div:nth-child(2) p {
+          color: #666666;
+          margin-left: 10px;
+          margin-bottom: 16px; }
+
+.product {
+  background: #0079d7; }
+  .product > .container {
+    padding-bottom: 81px; }
+    .product > .container > .p1 > .col-md-12 {
+      text-align: center; }
+      .product > .container > .p1 > .col-md-12 > h1 {
+        margin-top: 110px;
+        margin-bottom: 70px;
+        color: #fffefe;
+        font-size: 48px; }
+    .product > .container > .p2 > .col-md-6 > .col-md-4 {
+      padding-top: 15px; }
+    .product > .container > .p2 > .col-md-6 > .col-md-8 {
+      color: #fffefe; }
+      .product > .container > .p2 > .col-md-6 > .col-md-8 > h1 {
+        margin: 0;
+        font-size: 33px; }
+      .product > .container > .p2 > .col-md-6 > .col-md-8 > p {
+        font-size: 14px;
+        margin-bottom: 65px; }
+
+video {
+  object-fit: fill; }
+
+.game {
+  background: #ffffff;
+  font-size: 0px;
+  padding-top: 86px;
+  padding-bottom: 44px; }
+  .game > .container > .g1 {
+    margin-bottom: 45px;
+    padding-top: 3px; }
+    .game > .container > .g1 > .col-md-8 {
+      color: #2a2a2a; }
+      .game > .container > .g1 > .col-md-8 h1 {
+        margin-top: 0px;
+        font-size: 34px; }
+    .game > .container > .g1 > .col-md-4 {
+      text-align: right; }
+      .game > .container > .g1 > .col-md-4 a {
+        font-size: 14px;
+        color: #2a2a2a; }
+  .game > .container > .g2 {
+    margin-bottom: 50px; }
+    .game > .container > .g2 > .col-md-5 video {
+      border-radius: 5px; }
+    .game > .container > .g2 > .col-md-7 {
+      text-align: center;
+      font-size: 14px; }
+
+.partner {
+  padding-top: 40px;
+  padding-bottom: 44px;
+  background: #f4f4f4; }
+  .partner > .container > .p1 > .col-md-12 {
+    margin-bottom: 32px; }
+    .partner > .container > .p1 > .col-md-12 > span:first-child {
+      font-size: 30px;
+      color: #2a2a2a; }
+    .partner > .container > .p1 > .col-md-12 > span:nth-child(2) {
+      color: #818181;
+      font-size: 11px; }
+  .partner > .container > .p2 {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between; }
+    .partner > .container > .p2 > div {
+      border-radius: 5px;
+      line-height: 64px;
+      width: 148px;
+      height: 64px;
+      background: #ffffff; }
+
+.bottom-bar {
+  padding-top: 35px;
+  font-size: 0px;
+  color: #8c8d94;
+  background: #3b3b3b; }
+  .bottom-bar > .container > .b1 > .col-md-7 a {
+    padding: 5px;
+    color: #8c8d94;
+    font-size: 14px; }
+  .bottom-bar > .container > .b1 > .col-md-7 p {
+    font-size: 11px; }
+  .bottom-bar > .container > .b1 > .col-md-5 {
+    text-align: right;
+    padding-bottom: 40px; }
+    .bottom-bar > .container > .b1 > .col-md-5 > a {
+      margin-left: 20px;
+      padding-bottom: 13px; }
+    .bottom-bar > .container > .b1 > .col-md-5 > a > img:nth-child(2) {
+      display: none;
+      position: absolute; }
+    .bottom-bar > .container > .b1 > .col-md-5 > a:first-child:hover #qr {
+      right: 77px;
+      bottom: 50px;
+      display: block; }
+    .bottom-bar > .container > .b1 > .col-md-5 > a:nth-child(2):hover #qr {
+      right: 20px;
+      bottom: 50px;
+      display: block; }
+    .bottom-bar > .container > .b1 > .col-md-5 > a:nth-child(3):hover #qr {
+      right: -40px;
+      bottom: 50px;
+      display: block; }
+
+/*# sourceMappingURL=index.css.map */

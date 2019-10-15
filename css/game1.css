@@ -1,0 +1,146 @@
+body {
+  padding-top: 50px; }
+  body header .navbar {
+    margin-bottom: 0px; }
+    body header .navbar .navbar-brand {
+      padding: 7px 15px 7px 20px; }
+    body header .navbar .navbar-fixed-top {
+      border-width: 0px; }
+
+.item > img {
+  width: 100%;
+  max-width: 100%; }
+
+@media (min-width: 768px) {
+  .navbar {
+    border-radius: 0px; } }
+@media (min-width: 768px) and (max-width: 992px) {
+  .navbar .nav > li > a {
+    padding: 15px 3px; } }
+@media (min-width: 1200px) {
+  .container {
+    width: 1000px; } }
+body .engine {
+  font-size: 0px;
+  background: #fbfaf7; }
+  body .engine .container {
+    padding-bottom: 118px;
+    background: #fbfaf7;
+    background-image: url(../img/index/enginebgr.png);
+    background-repeat: no-repeat;
+    background-position: 100% calc(100% - 40px); }
+    body .engine .container > .row > h2 {
+      margin-top: 106px;
+      margin-bottom: 33px;
+      font-size: 48px;
+      color: #0078d7; }
+    body .engine .container > .row > p {
+      margin-bottom: 33px;
+      font-size: 30px;
+      color: #666666; }
+    body .engine .container > .row > .col-md-8 > .row > .col-md-6 > .col-md-3 {
+      font-size: 0px;
+      line-height: 64px;
+      text-align: center;
+      padding: 0px;
+      border-radius: 5px;
+      width: 64px;
+      height: 64px;
+      background: #0078d7; }
+    body .engine .container > .row > .col-md-8 > .row > .col-md-6 > .col-md-9 {
+      padding: 0 0 0 15px; }
+      body .engine .container > .row > .col-md-8 > .row > .col-md-6 > .col-md-9 h1 {
+        margin-top: 0px;
+        font-size: 20px;
+        color: #333333; }
+      body .engine .container > .row > .col-md-8 > .row > .col-md-6 > .col-md-9 p {
+        font-size: 14px;
+        color: #666666;
+        width: 100%;
+        margin-bottom: 46px; }
+
+.hot > .container {
+  padding-top: 13px; }
+  .hot > .container > .row1 {
+    position: relative; }
+    .hot > .container > .row1 > .img {
+      z-index: 3;
+      top: 40px;
+      position: absolute;
+      left: 5px; }
+    .hot > .container > .row1 > .r0 {
+      z-index: 1;
+      position: relative; }
+      .hot > .container > .row1 > .r0 span {
+        color: white;
+        top: 20px;
+        position: absolute;
+        display: inline-block;
+        width: 15px;
+        left: 29px; }
+    .hot > .container > .row1 > .r1 {
+      text-align: right; }
+      .hot > .container > .row1 > .r1 h1 {
+        font-size: 30px; }
+      .hot > .container > .row1 > .r1 p {
+        line-height: 30px;
+        color: #898989;
+        font-size: 12px; }
+    .hot > .container > .row1 > .r2 {
+      margin-bottom: 30px; }
+      .hot > .container > .row1 > .r2 > div {
+        padding: 0px; }
+      .hot > .container > .row1 > .r2 > div:nth-child(2) {
+        text-align: right; }
+  .hot > .container > .row2 {
+    position: relative;
+    margin-bottom: 84px; }
+    .hot > .container > .row2 > .img {
+      position: absolute;
+      right: 0px; }
+    .hot > .container > .row2 > .r0 h1 {
+      font-size: 30px; }
+    .hot > .container > .row2 > .r0 p {
+      line-height: 30px;
+      font-size: 12px;
+      color: #898989; }
+    .hot > .container > .row2 > .r1 > div {
+      margin-bottom: 30px;
+      padding: 0px; }
+    .hot > .container > .row2 > .r1 > div:nth-child(2) {
+      text-align: right; }
+
+.bottom-bar {
+  padding-top: 35px;
+  font-size: 0px;
+  color: #8c8d94;
+  background: #3b3b3b; }
+  .bottom-bar > .container > .b1 > .col-md-7 a {
+    padding: 5px;
+    color: #8c8d94;
+    font-size: 14px; }
+  .bottom-bar > .container > .b1 > .col-md-7 p {
+    font-size: 11px; }
+  .bottom-bar > .container > .b1 > .col-md-5 {
+    text-align: right;
+    padding-bottom: 40px; }
+    .bottom-bar > .container > .b1 > .col-md-5 > a {
+      margin-left: 20px;
+      padding-bottom: 13px; }
+    .bottom-bar > .container > .b1 > .col-md-5 > a > img:nth-child(2) {
+      display: none;
+      position: absolute; }
+    .bottom-bar > .container > .b1 > .col-md-5 > a:first-child:hover #qr {
+      right: 77px;
+      bottom: 85px;
+      display: block; }
+    .bottom-bar > .container > .b1 > .col-md-5 > a:nth-child(2):hover #qr {
+      right: 20px;
+      bottom: 85px;
+      display: block; }
+    .bottom-bar > .container > .b1 > .col-md-5 > a:nth-child(3):hover #qr {
+      right: -40px;
+      bottom: 85px;
+      display: block; }
+
+/*# sourceMappingURL=game1.css.map */
